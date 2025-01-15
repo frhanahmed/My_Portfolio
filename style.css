@@ -1,0 +1,440 @@
+/* *{
+    color: aliceblue;
+} */
+
+
+a{
+    /* color:aliceblue; */
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #0077b5; /* Change color on hover */
+}
+
+body{
+    margin: 0;
+    /* color: aliceblue; */
+    background-color: #fff;
+    /* background-color: #333533; */
+    color: black;
+    /* background-color: aliceblue; */
+
+    overflow-y: hidden; /* Prevent vertical scrolling */
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+/* Greeting Container */
+#greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 40px;
+    /* border-radius: 12px; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* max-width: 800px; */
+    /* width: 90%; */
+    /* gap: 20px; */
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Greeting Message */
+  .greeting-message {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .greeting-message h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #4caf50;
+  }
+  
+  .greeting-message p {
+    font-size: 1rem;
+    margin-top: 10px;
+    /* color: #555; */
+    color: black;
+  }
+  
+  /* Photo Styling */
+  .photo {
+    flex: 0 0 150px;
+    text-align: center;
+  }
+  
+  .photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #4caf50;
+    margin-right: 200px;
+  }
+
+
+#divnav{
+    margin-top: none;
+    position: fixed;
+    /* background-color: red; */
+    height: 60px;
+    width: 100vw;
+}
+#navigate{
+    background-color: violet;
+    padding: 15px;
+    height: 30px;
+    width: 100vw;
+    /* margin-top: 0; */
+    position:fixed;
+    /* height: 60px; */
+    /* color: aliceblue; */
+    /* background-color: #fff; */
+    /* background-color:#2a9d8f; */
+    /* margin-bottom: 10px; */
+}
+
+#home{
+    margin-left: 925px;
+    margin-right: 25px;
+}
+
+#about{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#skills{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#project{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#contactme{
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+
+
+#homepage2{
+    padding: 100px;
+    /* background-color: aqua; */
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+#divdetails{
+    /* background-color: orange; */
+    width: 50vw;
+    height: 50vh;
+}
+
+#divphoto{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 800px;
+}
+
+/* From here homepage work will be done */
+
+#homepage{
+    padding: 100px;
+    /* background-color: aqua; */
+    background-color: #fff;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+}
+
+#homediv1{
+    /* padding: 100px; */
+    /* background-color: orange; */
+    background-color: #fff;
+    /* padding-top: 100px; */
+    height: 350px;
+    width: 350px;
+    display:block;
+    /* margin-top: 300px; */
+    /* margin-left: 200px; */
+}
+
+.home_image{
+    /* padding: 10px; */
+    background-color: #008000;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    /* margin: auto; */
+    /* border: 5px solid #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    float: left; /* Aligns the image to the right */
+    margin-left: 700px;
+}   
+
+/* From here all details are for the CONTACT_ME page */
+
+#ContactPage{
+    padding: 100px;
+    /* background-color: orange; */
+    background-color: #fff;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    /* height: 100%;
+    width: 100%; */
+    /* margin: 0; */
+}
+
+
+.image{
+    padding: 10px;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    /* border: 5px solid #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    float: left; /* Aligns the image to the right */
+    margin-left: 100px;
+}
+
+#heading1{
+    text-decoration: underline;
+    text-align:left;
+}
+
+#div2{
+    margin-left: 700px;
+    /* background-color: aqua; */
+}
+
+#contactpara{
+    text-align:left;
+}
+
+
+
+/* Till here the homepage work has been done */
+
+
+#aboutpage{
+    /* background-color: orange; */
+    padding: 10px;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+}
+
+
+#aboutdiv2{
+    padding: 50px;
+    margin-left: 700px;
+    margin-right:100px;
+}
+
+.about_image{
+    padding: 100px;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    /* border: 5px solid #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    float: left; /* Aligns the image to the left */
+    margin-left: 150px;
+}
+
+
+/* Education Section */
+#education-section {
+    padding: 0px;
+    max-width: 600px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+    /* background-color: aliceblue; */
+    /* border-left: 4px dotted #ccc; */
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  /* Education Item */
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .duration {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .degree {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #008000; /* Green */
+    margin: 5px 0;
+  }
+  
+  .institution {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+  }
+
+
+/* Skills Section */
+#skills-section {
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    text-align: center;
+    /* background-color: #fff; */
+    /* background-color: aqua; */
+}
+    
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #444;
+}
+    
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+    
+/* Individual Skill */
+.skill {
+    text-align: left;
+}
+    
+.skill h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+    
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+    
+.skill-level {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+
+
+/* Projects Section */
+#projects-section {
+    /* background-color: violet; */
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    text-align: center;
+    /* background-color: #fff; */
+}
+  
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    /* color:aliceblue; */
+    color: #444;
+}
+  
+/* Projects Container */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+/* Project Card */
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+  
+.project-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+  
+.project-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #008000; /* Green */
+}
+  
+.project-description {
+    font-size: 1rem;
+    margin: 0 0 15px;
+    color: #555;
+}
+  
+/* GitHub Link */
+.github-link {
+    display: inline-block;
+    font-size: 1rem;
+    color: #007BFF; /* Blue */
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+}
+  
+.github-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#resume{
+    background-color: rgba(244, 16, 16, 0.962);
+    /* color: azure; */
+    color: #fff;
+    height: 40px;
+    width: 180px;
+}
